@@ -1,0 +1,83 @@
+:root {
+    --wheeldeg: 360 / 8;
+}
+
+.spin-wheel {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    animation: spin 4s infinite linear;
+  }
+  
+  .slice {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+  }
+  
+  .slice1 {
+    border-width: 100px 0 100px 100px;
+    border-color: red transparent red red;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  
+  .slice2 {
+    border-width: 100px 0 100px 100px;
+    border-color: orange transparent orange orange;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .slice3 {
+    border-width: 100px 0 100px 100px;
+    border-color: yellow transparent yellow yellow;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .slice4 {
+    border-width: 100px 0 100px 100px;
+    border-color: green transparent green green;
+    transform: translate(-50%, -50%) rotate(135deg);
+  }
+  
+  .slice5 {
+    border-width: 100px 0 100px 100px;
+    border-color: blue transparent blue blue;
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  
+  .slice6 {
+    border-width: 100px 0 100px 100px;
+    border-color: indigo transparent indigo indigo;
+    transform: translate(-50%, -50%) rotate(225deg);
+  }
+  
+  .slice7 {
+    border-width: 100px 0 100px 100px;
+    border-color: violet transparent violet violet;
+    transform: translate(-50%, -50%) rotate(270deg);
+  }
+  
+  .slice8 {
+    border-width: 100px 0 100px 100px;
+    border-color: red transparent red red;
+    transform: translate(-50%, -50%) rotate(315deg);
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+button{
+    cursor: pointer;
+}
