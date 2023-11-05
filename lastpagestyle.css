@@ -126,7 +126,7 @@ button:hover {
   .pop-out {
     position: absolute;
     color: #e2ecf7;
-    background-image: linear-gradient(to right, #DD5341 , #F57F5B);
+    background-color: #DD5341;
     width: 20rem;
     height: 8rem;
     text-align: center;
