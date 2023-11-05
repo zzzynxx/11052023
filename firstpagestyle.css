@@ -9,6 +9,7 @@ body{
 	height:100vh;
 	overflow:hidden;
     font-size: 2rem;
+	background-image: url(media_files/mgto_graphic_chinese_dish_02.avif)
 }
 
 .toptitle {
